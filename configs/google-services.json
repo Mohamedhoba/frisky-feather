@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "648053837758",
+    "project_id": "frisky-feather",
+    "storage_bucket": "frisky-feather.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648053837758:android:770ce5a3098d07eff233ef",
+        "android_client_info": {
+          "package_name": "com.friskyfeather.store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648053837758-9s63n85fag11qf9rhj41i6n39rdsp2rn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.friskyfeather.store",
+            "certificate_hash": "d087f0616fb1139bc19edc18f549f3dd3a1c1eb1"
+          }
+        },
+        {
+          "client_id": "648053837758-7nc1lj8v8o8a18t2qp6osh915q6cd7p3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm2dTLR8ITn0VRe5GY2S68KKrhOUAiWJk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648053837758-7nc1lj8v8o8a18t2qp6osh915q6cd7p3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "648053837758-db5iprtd9g1u1497tkpr8i5843tti7rb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.friskyfeather.store"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -22,6 +22,14 @@
           }
         },
         {
+          "client_id": "648053837758-meg28cde30m9bpprjgdjavk99h66kdr7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.friskyfeather.store",
+            "certificate_hash": "5ef11d4439c2df7422ed69c9973ea27c065c2b03"
+          }
+        },
+        {
           "client_id": "648053837758-7nc1lj8v8o8a18t2qp6osh915q6cd7p3.apps.googleusercontent.com",
           "client_type": 3
         }

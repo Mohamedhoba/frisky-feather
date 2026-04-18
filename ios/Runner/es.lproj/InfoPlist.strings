@@ -5,4 +5,3 @@ NSLocationWhenInUseUsageDescription = "Esta aplicación necesita acceso a tu ubi
 NSMicrophoneUsageDescription = "Nos gustaría tener acceso al micrófono para permitir grabar mensajes de voz";
 NSPhotoLibraryAddUsageDescription = "Nos gustaría tener acceso para almacenar imágenes/videos en su biblioteca de fotos";
 NSPhotoLibraryUsageDescription = "Esta aplicación requiere acceso a tu biblioteca de fotos para seleccionar la foto que usarás como tu foto de perfil.";
-NSUserTrackingUsageDescription = "Este identificador se usará para enviarle anuncios personalizados. \"Solicitar a la aplicación que no rastree\" limitará la capacidad de la red publicitaria'para enviarle anuncios relevantes, pero no reducirá la cantidad de anuncios que recibe.";

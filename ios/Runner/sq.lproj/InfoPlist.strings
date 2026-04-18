@@ -5,4 +5,3 @@ NSLocationWhenInUseUsageDescription = "Kjo aplikacion kërkon qasje në vendndod
 NSMicrophoneUsageDescription = "Ne do të donim qasje në mikrofon për të lejuar regjistrimin e mesazheve zanore";
 NSPhotoLibraryAddUsageDescription = "Ne do të donim akses për të ruajtur Imazhet/Videot në Bibliotekën tuaj të Fotove";
 NSPhotoLibraryUsageDescription = "Kjo aplikacion kërkon qasje në bibliotekën tuaj të fotografive për të zgjedhur fotografinë që do të përdorni si foton e profilit tuaj.";
-NSUserTrackingUsageDescription = "Ky identifikues do të përdoret për të ofruar reklama të personalizuara tek ju. \"Kërkoni që aplikacioni të mos gjurmojë\" do të kufizojë aftësinë e rrjetit të reklamave'për t'ju ofruar reklama përkatëse, por nuk do të zvogëlojë numrin e reklamave që merrni.";

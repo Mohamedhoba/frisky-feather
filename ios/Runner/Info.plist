@@ -141,8 +141,6 @@
 	<string>This app needs access to your location to show on the map screen and provide location-based services.</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>This app needs access to your location to show on the map screen and provide location-based services.</string>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>This identifier will be used to deliver personalized ads to you. &quot;Ask App Not to track&quot; will limit Advertisement network&apos;s ability to deliver relevant ads to you but will not reduce the number of ads you receive.</string>
 	<key>SKAdNetworkItems</key>
 	<array>
 		<dict>

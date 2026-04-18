@@ -5,4 +5,3 @@ NSLocationWhenInUseUsageDescription = "Ova aplikacija zahtijeva pristup vašoj l
 NSMicrophoneUsageDescription = "Želimo pristup mikrofonu kako bismo omogućili snimanje glasovnih poruka";
 NSPhotoLibraryAddUsageDescription = "Želimo pristup za pohranjivanje slika/videozapisa u vašu fototeku";
 NSPhotoLibraryUsageDescription = "Ova aplikacija zahtijeva pristup vašoj biblioteci fotografija kako biste odabrali fotografiju za vašu profilnu sliku.";
-NSUserTrackingUsageDescription = "Ovaj identifikator će se koristiti za isporuku personaliziranih oglasa vama. \"Traži od aplikacije da ne prati\" će ograničiti mogućnost reklamne mreže'da vam isporuči relevantne oglase, ali neće smanjiti broj oglasa koje primate. ";

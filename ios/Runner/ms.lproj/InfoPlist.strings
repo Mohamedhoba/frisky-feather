@@ -5,4 +5,3 @@ NSLocationWhenInUseUsageDescription = "Aplikasi ini memerlukan akses kepada loka
 NSMicrophoneUsageDescription = "Kami ingin akses kepada mikrofon untuk membenarkan rakaman mesej suara";
 NSPhotoLibraryAddUsageDescription = "Kami ingin akses untuk menyimpan Imej/Video dalam Pustaka Foto anda";
 NSPhotoLibraryUsageDescription = "plikasi ini memerlukan akses ke perpustakaan foto anda untuk memilih foto yang akan digunakan sebagai gambar profil anda.";
-NSUserTrackingUsageDescription = "Pengecam ini akan digunakan untuk menghantar iklan yang diperibadikan kepada anda. \"Minta Apl Tidak menjejak\" akan mengehadkan keupayaan rangkaian Iklan'untuk menyampaikan iklan yang berkaitan kepada anda tetapi tidak akan mengurangkan bilangan iklan yang anda terima. ";

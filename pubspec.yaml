@@ -88,15 +88,15 @@ dependencies:
     #  ref: master
 
   # MAP
- # google_maps_flutter: 2.10.0
+  google_maps_flutter: 2.10.0
   # constraints forgoogle_maps_flutter
- # google_maps_flutter_android: ^2.14.11
- # google_maps_flutter_ios: 2.13.1
+  google_maps_flutter_android: ^2.14.11
+  google_maps_flutter_ios: 2.13.1
   # location: 8.0.1
   # geocoding: ^3.0.0
 
   # AUTHENTICATION
-  # local_auth: 2.3.0
+  local_auth: 2.3.0
   # the_apple_sign_in: 1.1.1
   #flutter_facebook_auth: 7.1.2
   #google_sign_in: 6.2.2

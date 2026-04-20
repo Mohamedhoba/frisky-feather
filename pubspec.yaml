@@ -98,7 +98,7 @@ dependencies:
   # AUTHENTICATION
   local_auth: 2.3.0
   # the_apple_sign_in: 1.1.1
-  #flutter_facebook_auth: 7.1.2
+  flutter_facebook_auth: 7.1.2
   #google_sign_in: 6.2.2
   permission_handler: ^11.3.1
   flutter_web_auth_2: 4.1.0
@@ -169,28 +169,28 @@ dependencies:
 
   ### Native Payment
   phonepe_payment_sdk: ^2.0.3
-  #flutterwave_standard: 1.1.0
-  #razorpay_flutter:
-   # git:
-   # url: https://github.com/inspireui/razorpay-flutter.git
-   # ref: 4c6600400967cccc8b39ce6b7d08e6e287a66fca
-  #paytm_allinonesdk:
-   # git:
-    #  url: https://github.com/inspireui/paytm_allinonesdk.git
-     # ref: 5a1e27bbf583388fb14470f90f078ed962b0c444
+  flutterwave_standard: 1.1.0
+  razorpay_flutter:
+    git:
+      url: https://github.com/inspireui/razorpay-flutter.git
+      ref: 4c6600400967cccc8b39ce6b7d08e6e287a66fca
+  paytm_allinonesdk:
+    git:
+      url: https://github.com/inspireui/paytm_allinonesdk.git
+      ref: 5a1e27bbf583388fb14470f90f078ed962b0c444
   sms_autofill:
     git:
       url: https://github.com/inspireui/sms_autofill.git # Fix issue to compatible with Flutter 3.29
       ref: 50faf1ed6e5bfdd847803ef8b7456d9a10163f89
-  #pay_with_paystack:
-  #  git:
-  #    url: https://github.com/inspireui/pay_with_paystack
-  #   ref: 34163d42305f92e4071ab2fcf6fc8c16429397f5
+  pay_with_paystack:
+    git:
+     url: https://github.com/inspireui/pay_with_paystack
+     ref: 34163d42305f92e4071ab2fcf6fc8c16429397f5
   # This package is discontinued
- # flutter_paystack:
-  #  git:
-   #   url: https://github.com/inspireui/flutter_paystack.git
-    #  ref: d5355aa84e0884730e259d6c46f5e5dcf46e658a
+  flutter_paystack:
+    git:
+      url: https://github.com/inspireui/flutter_paystack.git
+      ref: d5355aa84e0884730e259d6c46f5e5dcf46e658a
 
   # Customize to adapt with the project
   flutter_async_autocomplete:

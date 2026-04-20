@@ -76,16 +76,16 @@ dependencies:
   fwfh_webview: 0.15.5
 
   # VIDEO
-  #video_player: ^2.9.2
-  #youtube_player_iframe:
-  #  git:
-   #   url: https://github.com/inspireui/youtube_player_flutter.git
-   #   path: packages/youtube_player_iframe
-    #  ref: 446fd06015796c83fc3e789beaa4180f8bc30e0e
-  #get_thumbnail_video:
-   # git:
-    #  url: https://github.com/inspireui/video_thumbnail
-    #  ref: master
+  video_player: ^2.9.2
+  youtube_player_iframe:
+    git:
+      url: https://github.com/inspireui/youtube_player_flutter.git
+      path: packages/youtube_player_iframe
+      ref: 446fd06015796c83fc3e789beaa4180f8bc30e0e
+  get_thumbnail_video:
+    git:
+      url: https://github.com/inspireui/video_thumbnail
+      ref: master
 
   # MAP
   google_maps_flutter: 2.10.0
@@ -129,7 +129,7 @@ dependencies:
   # google_mobile_ads: ^5.2.0
   # speech_to_text: 7.0.0
   flutter_keyboard_visibility: 6.0.0
-  # app_tracking_transparency: ^2.0.6
+  app_tracking_transparency: ^2.0.6
   # flutter_branch_sdk: 8.10.0
   #facebook_app_events: 0.20.1
   connectivity_plus: 6.1.5

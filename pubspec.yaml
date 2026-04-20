@@ -131,7 +131,7 @@ dependencies:
   flutter_keyboard_visibility: 6.0.0
   app_tracking_transparency: ^2.0.6
   # flutter_branch_sdk: 8.10.0
-  #facebook_app_events: 0.20.1
+  facebook_app_events: 0.20.1
   connectivity_plus: 6.1.5
 
   # UI
@@ -168,7 +168,7 @@ dependencies:
   responsive_builder: 0.7.1
 
   ### Native Payment
-  #phonepe_payment_sdk: ^2.0.3
+  phonepe_payment_sdk: ^2.0.3
   #flutterwave_standard: 1.1.0
   #razorpay_flutter:
    # git:

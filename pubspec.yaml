@@ -92,8 +92,8 @@ dependencies:
   # constraints forgoogle_maps_flutter
   google_maps_flutter_android: ^2.14.11
   google_maps_flutter_ios: 2.13.1
-  # location: 8.0.1
-  # geocoding: ^3.0.0
+  location: 8.0.1
+  geocoding: ^3.0.0
 
   # AUTHENTICATION
   local_auth: 2.3.0
@@ -146,7 +146,7 @@ dependencies:
   extended_image: 10.0.1
   dotted_decoration: 2.0.0
   awesome_card: 1.1.7
-  # qr_code_scanner: 1.0.1
+  qr_code_scanner: 1.0.1
   sticky_headers: 0.3.0+2
   jumping_dot: 0.0.7
   fl_chart: ^0.69.0

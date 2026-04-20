@@ -73,14 +73,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.4"
-  app_tracking_transparency:
-    dependency: "direct main"
-    description:
-      name: app_tracking_transparency
-      sha256: "1f71f4d8402552fbf8b191d4edab301f233c1af794878b7bc56c708470ffd74c"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.6+1"
   archive:
     dependency: transitive
     description:
@@ -237,10 +229,10 @@ packages:
     dependency: transitive
     description:
       name: characters
-      sha256: f71061c654a3380576a52b451dd5532377954cf9dbd272a78fc8479606670803
+      sha256: faf38497bda5ead2a8c7615f4f7939df04333478bf32e4173fcb06d428b5716b
       url: "https://pub.dev"
     source: hosted
-    version: "1.4.0"
+    version: "1.4.1"
   checked_yaml:
     dependency: transitive
     description:
@@ -529,14 +521,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.1"
-  eventify:
-    dependency: transitive
-    description:
-      name: eventify
-      sha256: b829429f08586cc2001c628e7499e3e3c2493a1d895fd73b00ecb23351aa5a66
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.1"
   extended_image:
     dependency: "direct main"
     description:
@@ -553,22 +537,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.0.1"
-  facebook_app_events:
-    dependency: "direct main"
-    description:
-      name: facebook_app_events
-      sha256: febb0c73714ed48c546b4fa214ac08cf3b4db0a4acebaaefc61e3b653bf1f342
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.20.1"
-  facebook_auth_desktop:
-    dependency: transitive
-    description:
-      name: facebook_auth_desktop
-      sha256: "219d559a33891e937c1913430505eae01fb946cb35729167bbdc747e3ebbd9ff"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.1"
   fake_async:
     dependency: transitive
     description:
@@ -833,14 +801,6 @@ packages:
       url: "https://github.com/inspireui/flutter_async_autocomplete.git"
     source: git
     version: "0.0.4"
-  flutter_branch_sdk:
-    dependency: "direct main"
-    description:
-      name: flutter_branch_sdk
-      sha256: b1b8f5d38fcec625a6e6f130435a532ac8add93728594cfcabedc364877e735a
-      url: "https://pub.dev"
-    source: hosted
-    version: "8.10.0"
   flutter_cache_manager:
     dependency: "direct main"
     description:
@@ -858,27 +818,11 @@ packages:
       url: "https://github.com/inspireui/flutter_calendar_carousel.git"
     source: git
     version: "2.5.3"
-  flutter_facebook_auth:
-    dependency: "direct main"
-    description:
-      name: flutter_facebook_auth
-      sha256: "902a98db4c7a24001a0835d592806c6a3d6b0c7fba2d169c11e20e14fdc74368"
-      url: "https://pub.dev"
-    source: hosted
-    version: "7.1.2"
   flutter_facebook_auth_platform_interface:
     dependency: transitive
     description:
       name: flutter_facebook_auth_platform_interface
       sha256: e04b8dbfa77702bea45a79993163ad5d20b2c0084109bec591fdc2b9ee505779
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.1.2"
-  flutter_facebook_auth_web:
-    dependency: transitive
-    description:
-      name: flutter_facebook_auth_web
-      sha256: f682400d61cf8d52dd8b6458b5ee106ed57e95309a117dc32875d3da129ce47c
       url: "https://pub.dev"
     source: hosted
     version: "6.1.2"
@@ -1080,15 +1024,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.4.6"
-  flutter_paystack:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: d5355aa84e0884730e259d6c46f5e5dcf46e658a
-      resolved-ref: d5355aa84e0884730e259d6c46f5e5dcf46e658a
-      url: "https://github.com/inspireui/flutter_paystack.git"
-    source: git
-    version: "1.0.7"
   flutter_plugin_android_lifecycle:
     dependency: transitive
     description:
@@ -1244,22 +1179,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.2.0"
-  fluttertoast:
-    dependency: transitive
-    description:
-      name: fluttertoast
-      sha256: "90778fe0497fe3a09166e8cf2e0867310ff434b794526589e77ec03cf08ba8e8"
-      url: "https://pub.dev"
-    source: hosted
-    version: "8.2.14"
-  flutterwave_standard:
-    dependency: "direct main"
-    description:
-      name: flutterwave_standard
-      sha256: "32d66ffc1b7fdbcc4f80c499b15d34456998e502166eac3765841f22ad65dd2b"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.0"
   flux_dynamic_link:
     dependency: "direct main"
     description:
@@ -1361,38 +1280,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.15.5"
-  geocoding:
-    dependency: "direct main"
-    description:
-      name: geocoding
-      sha256: d580c801cba9386b4fac5047c4c785a4e19554f46be42f4f5e5b7deacd088a66
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.0.0"
-  geocoding_android:
-    dependency: transitive
-    description:
-      name: geocoding_android
-      sha256: "1b13eca79b11c497c434678fed109c2be020b158cec7512c848c102bc7232603"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.3.1"
-  geocoding_ios:
-    dependency: transitive
-    description:
-      name: geocoding_ios
-      sha256: "18ab1c8369e2b0dcb3a8ccc907319334f35ee8cf4cfef4d9c8e23b13c65cb825"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.1.0"
-  geocoding_platform_interface:
-    dependency: transitive
-    description:
-      name: geocoding_platform_interface
-      sha256: "8c2c8226e5c276594c2e18bfe88b19110ed770aeb7c1ab50ede570be8b92229b"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.2.0"
   get_it:
     dependency: "direct main"
     description:
@@ -1401,15 +1288,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "8.2.0"
-  get_thumbnail_video:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: master
-      resolved-ref: "7723cb8920a4b71c7a633a78d96546a6727ffced"
-      url: "https://github.com/inspireui/video_thumbnail"
-    source: git
-    version: "0.6.1"
   glob:
     dependency: transitive
     description:
@@ -1434,110 +1312,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.3.2"
-  google_identity_services_web:
-    dependency: transitive
-    description:
-      name: google_identity_services_web
-      sha256: "5d187c46dc59e02646e10fe82665fc3884a9b71bc1c90c2b8b749316d33ee454"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.3.3+1"
-  google_maps:
-    dependency: transitive
-    description:
-      name: google_maps
-      sha256: "5d410c32112d7c6eb7858d359275b2aa04778eed3e36c745aeae905fb2fa6468"
-      url: "https://pub.dev"
-    source: hosted
-    version: "8.2.0"
-  google_maps_flutter:
-    dependency: "direct main"
-    description:
-      name: google_maps_flutter
-      sha256: "209856c8e5571626afba7182cf634b2910069dc567954e76ec3e3fb37f5e9db3"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.10.0"
-  google_maps_flutter_android:
-    dependency: "direct main"
-    description:
-      name: google_maps_flutter_android
-      sha256: "7c7ff5b883b27bfdd0d52d91d89faf00858a6c1b33aeca0dc80faca64f389983"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.18.3"
-  google_maps_flutter_ios:
-    dependency: "direct main"
-    description:
-      name: google_maps_flutter_ios
-      sha256: "753ebf6a2bc24c5eba8e714c901345d858abd9694b1f878c43614fd3f06b8060"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.13.1"
-  google_maps_flutter_platform_interface:
-    dependency: transitive
-    description:
-      name: google_maps_flutter_platform_interface
-      sha256: f4b9b44f7b12a1f6707ffc79d082738e0b7e194bf728ee61d2b3cdf5fdf16081
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.14.0"
-  google_maps_flutter_web:
-    dependency: transitive
-    description:
-      name: google_maps_flutter_web
-      sha256: "53e5dbf73ff04153acc55a038248706967c21d5b6ef6657a57fce2be73c2895a"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.5.14+2"
-  google_mobile_ads:
-    dependency: "direct main"
-    description:
-      name: google_mobile_ads
-      sha256: "0d4a3744b5e8ed1b8be6a1b452d309f811688855a497c6113fc4400f922db603"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.3.1"
-  google_sign_in:
-    dependency: "direct main"
-    description:
-      name: google_sign_in
-      sha256: fad6ddc80c427b0bba705f2116204ce1173e09cf299f85e053d57a55e5b2dd56
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.2.2"
-  google_sign_in_android:
-    dependency: transitive
-    description:
-      name: google_sign_in_android
-      sha256: d5e23c56a4b84b6427552f1cf3f98f716db3b1d1a647f16b96dbb5b93afa2805
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.2.1"
-  google_sign_in_ios:
-    dependency: transitive
-    description:
-      name: google_sign_in_ios
-      sha256: "102005f498ce18442e7158f6791033bbc15ad2dcc0afa4cf4752e2722a516c96"
-      url: "https://pub.dev"
-    source: hosted
-    version: "5.9.0"
-  google_sign_in_platform_interface:
-    dependency: transitive
-    description:
-      name: google_sign_in_platform_interface
-      sha256: "5f6f79cf139c197261adb6ac024577518ae48fdff8e53205c5373b5f6430a8aa"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.5.0"
-  google_sign_in_web:
-    dependency: transitive
-    description:
-      name: google_sign_in_web
-      sha256: "460547beb4962b7623ac0fb8122d6b8268c951cf0b646dd150d60498430e4ded"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.12.4+4"
   gql:
     dependency: "direct main"
     description:
@@ -1931,70 +1705,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.0.0"
-  local_auth:
-    dependency: "direct main"
-    description:
-      name: local_auth
-      sha256: "434d854cf478f17f12ab29a76a02b3067f86a63a6d6c4eb8fbfdcfe4879c1b7b"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.3.0"
-  local_auth_android:
-    dependency: transitive
-    description:
-      name: local_auth_android
-      sha256: b2446c74fab1db37f828d4c54adaa3f003df80a29f5cbd710bbb8883d302e991
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.55"
-  local_auth_darwin:
-    dependency: transitive
-    description:
-      name: local_auth_darwin
-      sha256: "699873970067a40ef2f2c09b4c72eb1cfef64224ef041b3df9fdc5c4c1f91f49"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.6.1"
-  local_auth_platform_interface:
-    dependency: transitive
-    description:
-      name: local_auth_platform_interface
-      sha256: f98b8e388588583d3f781f6806e4f4c9f9e189d898d27f0c249b93a1973dd122
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.0"
-  local_auth_windows:
-    dependency: transitive
-    description:
-      name: local_auth_windows
-      sha256: bc4e66a29b0fdf751aafbec923b5bed7ad6ed3614875d8151afe2578520b2ab5
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.11"
-  location:
-    dependency: "direct main"
-    description:
-      name: location
-      sha256: b080053c181c7d152c43dd576eec6436c40e25f326933051c330da563ddd5333
-      url: "https://pub.dev"
-    source: hosted
-    version: "8.0.1"
-  location_platform_interface:
-    dependency: transitive
-    description:
-      name: location_platform_interface
-      sha256: ca8700bb3f6b1e8b2afbd86bd78b2280d116c613ca7bfa1d4d7b64eba357d749
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.0.1"
-  location_web:
-    dependency: transitive
-    description:
-      name: location_web
-      sha256: b8e3add5efe0d65c5e692b7a135d80a4015c580d3ea646fa71973e97668dd868
-      url: "https://pub.dev"
-    source: hosted
-    version: "6.0.1"
   logger:
     dependency: transitive
     description:
@@ -2023,18 +1733,18 @@ packages:
     dependency: transitive
     description:
       name: matcher
-      sha256: dc58c723c3c24bf8d3e2d3ad3f2f9d7bd9cf43ec6feaa64181775e60190153f2
+      sha256: dc0b7dc7651697ea4ff3e69ef44b0407ea32c487a39fff6a4004fa585e901861
       url: "https://pub.dev"
     source: hosted
-    version: "0.12.17"
+    version: "0.12.19"
   material_color_utilities:
     dependency: transitive
     description:
       name: material_color_utilities
-      sha256: f7142bb1154231d7ea5f96bc7bde4bda2a0945d2806bb11670e30b850d56bdec
+      sha256: "9c337007e82b1889149c82ed242ed1cb24a66044e30979c44912381e9be4c48b"
       url: "https://pub.dev"
     source: hosted
-    version: "0.11.1"
+    version: "0.13.0"
   meta:
     dependency: transitive
     description:
@@ -2205,32 +1915,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.0"
-  pay_with_paystack:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: "34163d42305f92e4071ab2fcf6fc8c16429397f5"
-      resolved-ref: "34163d42305f92e4071ab2fcf6fc8c16429397f5"
-      url: "https://github.com/inspireui/pay_with_paystack"
-    source: git
-    version: "1.0.2"
-  paytm_allinonesdk:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: "5a1e27bbf583388fb14470f90f078ed962b0c444"
-      resolved-ref: "5a1e27bbf583388fb14470f90f078ed962b0c444"
-      url: "https://github.com/inspireui/paytm_allinonesdk.git"
-    source: git
-    version: "1.2.2+hotfix1.0"
-  pedantic:
-    dependency: transitive
-    description:
-      name: pedantic
-      sha256: "67fc27ed9639506c856c840ccce7594d0bdcd91bc8d53d6e52359449a1d50602"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.11.1"
   permission_handler:
     dependency: "direct main"
     description:
@@ -2287,14 +1971,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "7.0.1"
-  phonepe_payment_sdk:
-    dependency: "direct main"
-    description:
-      name: phonepe_payment_sdk
-      sha256: c1d3f8adf18b3b6d70addb96f22b6770fe36130f9caf042bdaba0849149db39d
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.3"
   pin_code_fields:
     dependency: "direct main"
     description:
@@ -2384,14 +2060,6 @@ packages:
       url: "https://github.com/inspireui/flutter_pull_to_refresh"
     source: git
     version: "2.0.0"
-  qr_code_scanner:
-    dependency: "direct main"
-    description:
-      name: qr_code_scanner
-      sha256: f23b68d893505a424f0bd2e324ebea71ed88465d572d26bb8d2e78a4749591fd
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.1"
   quiver:
     dependency: "direct main"
     description:
@@ -2416,15 +2084,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.2"
-  razorpay_flutter:
-    dependency: "direct main"
-    description:
-      path: "."
-      ref: "4c6600400967cccc8b39ce6b7d08e6e287a66fca"
-      resolved-ref: "4c6600400967cccc8b39ce6b7d08e6e287a66fca"
-      url: "https://github.com/inspireui/razorpay-flutter.git"
-    source: git
-    version: "1.4.0"
   readmore:
     dependency: "direct main"
     description:
@@ -2489,14 +2148,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.28.0"
-  sanitize_html:
-    dependency: transitive
-    description:
-      name: sanitize_html
-      sha256: "12669c4a913688a26555323fb9cec373d8f9fbe091f2d01c40c723b33caa8989"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.1.0"
   scroll_to_index:
     dependency: "direct main"
     description:
@@ -2664,22 +2315,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.10.1"
-  speech_to_text:
-    dependency: "direct main"
-    description:
-      name: speech_to_text
-      sha256: "6cf8f284997490ebef1d68f8707bef57dcf083f43c0f915cc285428520bfe6be"
-      url: "https://pub.dev"
-    source: hosted
-    version: "7.0.0"
-  speech_to_text_platform_interface:
-    dependency: transitive
-    description:
-      name: speech_to_text_platform_interface
-      sha256: a1935847704e41ee468aad83181ddd2423d0833abe55d769c59afca07adb5114
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.3.0"
   sprintf:
     dependency: transitive
     description:
@@ -2788,18 +2423,10 @@ packages:
     dependency: transitive
     description:
       name: test_api
-      sha256: ab2726c1a94d3176a45960b6234466ec367179b87dd74f1611adb1f3b5fb9d55
+      sha256: "8161c84903fd860b26bfdefb7963b3f0b68fee7adea0f59ef805ecca346f0c7a"
       url: "https://pub.dev"
     source: hosted
-    version: "0.7.7"
-  the_apple_sign_in:
-    dependency: "direct main"
-    description:
-      name: the_apple_sign_in
-      sha256: "52163df2619e5461f63559002eee171fe78ebab3af6f6f34c4026df5f15859ad"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.1.1"
+    version: "0.7.10"
   tiktoklikescroller:
     dependency: "direct main"
     description:
@@ -2977,7 +2604,7 @@ packages:
     source: hosted
     version: "2.2.0"
   video_player:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: video_player
       sha256: "0d55b1f1a31e5ad4c4967bfaa8ade0240b07d20ee4af1dfef5f531056512961a"
@@ -3168,23 +2795,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.3"
-  youtube_player_iframe:
-    dependency: "direct main"
-    description:
-      path: "packages/youtube_player_iframe"
-      ref: "446fd06015796c83fc3e789beaa4180f8bc30e0e"
-      resolved-ref: "446fd06015796c83fc3e789beaa4180f8bc30e0e"
-      url: "https://github.com/inspireui/youtube_player_flutter.git"
-    source: git
-    version: "5.2.2"
-  youtube_player_iframe_web:
-    dependency: transitive
-    description:
-      name: youtube_player_iframe_web
-      sha256: "333901d008634f2ea67ef27aba8d597567e4ff45f393290b948a739654ab6dca"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.1.2"
 sdks:
   dart: ">=3.10.0 <4.0.0"
   flutter: ">=3.35.0"

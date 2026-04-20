@@ -6,7 +6,7 @@ description: Mobile commerce app by Flutter
 # A version number is three numbers separated by dots, like 1.2.43 - followed by an optional build number separated by a +.
 # In Android, build-name is used as versionName while build-number used as versionCode.Read more about Android versioning at https://developer.android.com/studio/publish/versioning
 # In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion. Read more about iOS versioning at https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
-version: 1.0.9+7
+version: 1.0.10+8
 environment:
   sdk: ">=3.10.0 <4.0.0"
 
@@ -76,30 +76,30 @@ dependencies:
   fwfh_webview: 0.15.5
 
   # VIDEO
-  video_player: ^2.9.2
-  youtube_player_iframe:
-    git:
-      url: https://github.com/inspireui/youtube_player_flutter.git
-      path: packages/youtube_player_iframe
-      ref: 446fd06015796c83fc3e789beaa4180f8bc30e0e
-  get_thumbnail_video:
-    git:
-      url: https://github.com/inspireui/video_thumbnail
-      ref: master
+  #video_player: ^2.9.2
+  #youtube_player_iframe:
+  #  git:
+   #   url: https://github.com/inspireui/youtube_player_flutter.git
+   #   path: packages/youtube_player_iframe
+    #  ref: 446fd06015796c83fc3e789beaa4180f8bc30e0e
+  #get_thumbnail_video:
+   # git:
+    #  url: https://github.com/inspireui/video_thumbnail
+    #  ref: master
 
   # MAP
-  google_maps_flutter: 2.10.0
-  # constraints for google_maps_flutter
-  google_maps_flutter_android: ^2.14.11
-  google_maps_flutter_ios: 2.13.1
-  location: 8.0.1
-  geocoding: ^3.0.0
+ # google_maps_flutter: 2.10.0
+  # constraints forgoogle_maps_flutter
+ # google_maps_flutter_android: ^2.14.11
+ # google_maps_flutter_ios: 2.13.1
+  # location: 8.0.1
+  # geocoding: ^3.0.0
 
   # AUTHENTICATION
-  local_auth: 2.3.0
-  the_apple_sign_in: 1.1.1
-  flutter_facebook_auth: 7.1.2
-  google_sign_in: 6.2.2
+  # local_auth: 2.3.0
+  # the_apple_sign_in: 1.1.1
+  #flutter_facebook_auth: 7.1.2
+  #google_sign_in: 6.2.2
   permission_handler: ^11.3.1
   flutter_web_auth_2: 4.1.0
 
@@ -126,12 +126,12 @@ dependencies:
   rate_my_app: ^2.2.0
   flutter_linkify: 6.0.0
   gms_check: 1.0.4
-  google_mobile_ads: ^5.2.0
-  speech_to_text: 7.0.0
+  # google_mobile_ads: ^5.2.0
+  # speech_to_text: 7.0.0
   flutter_keyboard_visibility: 6.0.0
-  app_tracking_transparency: ^2.0.6
-  flutter_branch_sdk: 8.10.0
-  facebook_app_events: 0.20.1
+  # app_tracking_transparency: ^2.0.6
+  # flutter_branch_sdk: 8.10.0
+  #facebook_app_events: 0.20.1
   connectivity_plus: 6.1.5
 
   # UI
@@ -146,7 +146,7 @@ dependencies:
   extended_image: 10.0.1
   dotted_decoration: 2.0.0
   awesome_card: 1.1.7
-  qr_code_scanner: 1.0.1
+  # qr_code_scanner: 1.0.1
   sticky_headers: 0.3.0+2
   jumping_dot: 0.0.7
   fl_chart: ^0.69.0
@@ -168,29 +168,29 @@ dependencies:
   responsive_builder: 0.7.1
 
   ### Native Payment
-  phonepe_payment_sdk: ^2.0.3
-  flutterwave_standard: 1.1.0
-  razorpay_flutter:
-    git:
-      url: https://github.com/inspireui/razorpay-flutter.git
-      ref: 4c6600400967cccc8b39ce6b7d08e6e287a66fca
-  paytm_allinonesdk:
-    git:
-      url: https://github.com/inspireui/paytm_allinonesdk.git
-      ref: 5a1e27bbf583388fb14470f90f078ed962b0c444
+  #phonepe_payment_sdk: ^2.0.3
+  #flutterwave_standard: 1.1.0
+  #razorpay_flutter:
+   # git:
+   # url: https://github.com/inspireui/razorpay-flutter.git
+   # ref: 4c6600400967cccc8b39ce6b7d08e6e287a66fca
+  #paytm_allinonesdk:
+   # git:
+    #  url: https://github.com/inspireui/paytm_allinonesdk.git
+     # ref: 5a1e27bbf583388fb14470f90f078ed962b0c444
   sms_autofill:
     git:
       url: https://github.com/inspireui/sms_autofill.git # Fix issue to compatible with Flutter 3.29
       ref: 50faf1ed6e5bfdd847803ef8b7456d9a10163f89
-  pay_with_paystack:
-    git:
-      url: https://github.com/inspireui/pay_with_paystack
-      ref: 34163d42305f92e4071ab2fcf6fc8c16429397f5
+  #pay_with_paystack:
+  #  git:
+  #    url: https://github.com/inspireui/pay_with_paystack
+  #   ref: 34163d42305f92e4071ab2fcf6fc8c16429397f5
   # This package is discontinued
-  flutter_paystack:
-    git:
-      url: https://github.com/inspireui/flutter_paystack.git
-      ref: d5355aa84e0884730e259d6c46f5e5dcf46e658a
+ # flutter_paystack:
+  #  git:
+   #   url: https://github.com/inspireui/flutter_paystack.git
+    #  ref: d5355aa84e0884730e259d6c46f5e5dcf46e658a
 
   # Customize to adapt with the project
   flutter_async_autocomplete:

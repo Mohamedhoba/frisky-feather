@@ -247,9 +247,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="${googleApiKeyAndroid}" />
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="${adMobAppIdAndroid}" />
+
 
         <!-- Facebook Login configuration -->
         <meta-data
@@ -265,10 +263,7 @@
             android:value="${envatoPurchaseCode}" />
 
         <!-- Problem using android build gradle 8.x.x - https://stackoverflow.com/a/78086604 -->
-        <property
-            android:name="android.adservices.AD_SERVICES_CONFIG"
-            android:resource="@xml/gma_ad_services_config"
-            tools:replace="android:resource" />
+
 
         <!--        Enable to support Audio Feature-->
         <!--        <service-->

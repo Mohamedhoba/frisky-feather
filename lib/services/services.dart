@@ -8,7 +8,7 @@ import '../common/constants.dart';
 import '../dependency_injection/di_core.dart';
 import '../frameworks/woocommerce/services/woo_mixin.dart';
 import '../frameworks/wordpress/services/wordpress_mixin.dart';
-import '../modules/advertisement/index.dart' show AdvertisementServiceImpl;
+// import '../modules/advertisement/index.dart' show AdvertisementServiceImpl;
 import '../modules/badge_management/badge_management_mixin.dart';
 import '../modules/digits_mobile_login/services/digits_mobile_login_service_mixin.dart';
 import '../modules/onesignal/one_signal_notification_service.dart';
@@ -44,8 +44,8 @@ class Services
   final BaseFirebaseServices firebase = injector.get<BaseFirebaseServices>();
 
   /// using AdvertisementService when disable the Advertisement
-  // final AdvertisementService advertisement = AdvertisementService();
-  final AdvertisementService advertisement = AdvertisementServiceImpl();
+  final AdvertisementService advertisement = AdvertisementService();
+  // final AdvertisementService advertisement = AdvertisementServiceImpl();
 
   final ChatServices chatServices = ChatServices();
 

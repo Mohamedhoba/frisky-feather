@@ -25,56 +25,57 @@ class AppTracking {
   /// Because the app_tracking_transparency library only supports iOS,
   /// so for other platforms it will return true by default.
   static Future<bool> requestAuthorization() async {
-    if (!isIos || SettingsBox().appTrackingTransparencyStatus.isAuthorized) {
-      _updateStatus(AppTrackingTransparencyStatus.authorized);
-      return true;
-    }
-
-    try {
-      _completer = Completer();
-      var status = await AppTrackingTransparency.trackingAuthorizationStatus;
-
-      // Because on iOS 18+ there is an issue where permission popups conflict,
-      // this makes some requests unable to open. Temporarily fix by repeating
-      // the permission request until
-      // status != TrackingStatus.notDetermined (Delay 1s between requests)
-      // Related: https://github.com/deniza/app_tracking_transparency/issues/59#issuecomment-2553510496
-      while (status == TrackingStatus.notDetermined) {
-        _updateStatus(AppTrackingTransparencyStatus.requesting);
-
-        // Request system's tracking authorization dialog
-        status = await AppTrackingTransparency.requestTrackingAuthorization();
-
-        if (status != TrackingStatus.notDetermined) {
-          break;
-        }
-
-        await Future.delayed(const Duration(seconds: 1));
-      }
-
-      if (status == TrackingStatus.authorized) {
-        _updateStatus(AppTrackingTransparencyStatus.authorized);
-        _completed();
-        return true;
-      }
-
-      printLog(':::::::::[AppTrackingTransparency] Tracking not authorized');
-      var statusTracking =
-          [TrackingStatus.denied, TrackingStatus.notSupported].contains(status)
-          ? AppTrackingTransparencyStatus.deniend
-          : AppTrackingTransparencyStatus.canRequest;
-
-      _updateStatus(statusTracking);
-      _completed();
-      return false;
-    } catch (e) {
-      if (SettingsBox().appTrackingTransparencyStatus.isFirstTime) {
-        _updateStatus(AppTrackingTransparencyStatus.canRequest);
-      }
-
-      _completed();
-      return false;
-    }
+//     if (!isIos || SettingsBox().appTrackingTransparencyStatus.isAuthorized) {
+//       _updateStatus(AppTrackingTransparencyStatus.authorized);
+//       return true;
+//     }
+//
+//     try {
+//       _completer = Completer();
+//       var status = await AppTrackingTransparency.trackingAuthorizationStatus;
+//
+//       // Because on iOS 18+ there is an issue where permission popups conflict,
+//       // this makes some requests unable to open. Temporarily fix by repeating
+//       // the permission request until
+//       // status != TrackingStatus.notDetermined (Delay 1s between requests)
+//       // Related: https://github.com/deniza/app_tracking_transparency/issues/59#issuecomment-2553510496
+//       while (status == TrackingStatus.notDetermined) {
+//         _updateStatus(AppTrackingTransparencyStatus.requesting);
+//
+//         // Request system's tracking authorization dialog
+//         status = await AppTrackingTransparency.requestTrackingAuthorization();
+//
+//         if (status != TrackingStatus.notDetermined) {
+//           break;
+//         }
+//
+//         await Future.delayed(const Duration(seconds: 1));
+//       }
+//
+//       if (status == TrackingStatus.authorized) {
+//         _updateStatus(AppTrackingTransparencyStatus.authorized);
+//         _completed();
+//         return true;
+//       }
+//
+//       printLog(':::::::::[AppTrackingTransparency] Tracking not authorized');
+//       var statusTracking =
+//           [TrackingStatus.denied, TrackingStatus.notSupported].contains(status)
+//           ? AppTrackingTransparencyStatus.deniend
+//           : AppTrackingTransparencyStatus.canRequest;
+//
+//       _updateStatus(statusTracking);
+//       _completed();
+//       return false;
+//     } catch (e) {
+//       if (SettingsBox().appTrackingTransparencyStatus.isFirstTime) {
+//         _updateStatus(AppTrackingTransparencyStatus.canRequest);
+//       }
+//
+//       _completed();
+//       return false;
+//     }
+    return false;
   }
 
   static Future<void> recheck(BuildContext context) async {

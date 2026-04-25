@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>648053837758-db5iprtd9g1u1497tkpr8i5843tti7rb.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.648053837758-db5iprtd9g1u1497tkpr8i5843tti7rb</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>648053837758-9s63n85fag11qf9rhj41i6n39rdsp2rn.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAMSe7kNiZRhOifZ30JTexLt5uaZ1tIfAg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>648053837758</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.friskyfeather.store</string>
+	<key>PROJECT_ID</key>
+	<string>frisky-feather</string>
+	<key>STORAGE_BUCKET</key>
+	<string>frisky-feather.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:648053837758:ios:cddd29de48318d57f233ef</string>
+</dict>
+</plist>

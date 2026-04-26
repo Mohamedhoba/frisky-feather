@@ -35,7 +35,7 @@ iosApsEnvironment=development
 
 # Required for Firebase features. Invalid value can cause app crashing. Keep default value if not used.
 # Can be taken from REVERSED_CLIENT_ID in GoogleService-Info.plist.
-googleReversedClientId=com.googleusercontent.apps.412823237422-pf5dr3f75n6r201u24ocioin54u3cseq
+googleReversedClientId=com.googleusercontent.apps.648053837758-2dlbmf046hthpkcpfpocm11113ddr7o1
 
 # Used for Google Maps features (optional).
 googleApiKeyAndroid=AIzaSyDSNYVC-8DU9BTcyqkeN9c5pgVhwOBAvGg

@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>412823237422-pf5dr3f75n6r201u24ocioin54u3cseq.apps.googleusercontent.com</string>
+	<string>648053837758-2dlbmf046hthpkcpfpocm11113ddr7o1.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.412823237422-pf5dr3f75n6r201u24ocioin54u3cseq</string>
+	<string>com.googleusercontent.apps.648053837758-2dlbmf046hthpkcpfpocm11113ddr7o1</string>
 	<key>ANDROID_CLIENT_ID</key>
-	<string>412823237422-3d7l4tv9d524qds81062g6vfr588u9rg.apps.googleusercontent.com</string>
+	<string>648053837758-9s63n85fag11qf9rhj41i6n39rdsp2rn.apps.googleusercontent.com</string>
 	<key>API_KEY</key>
-	<string>AIzaSyA2BWeKRw-D7zHLnvVVoi6ahOqyucoa9s0</string>
+	<string>AIzaSyAMSe7kNiZRhOifZ30JTexLt5uaZ1tIfAg</string>
 	<key>GCM_SENDER_ID</key>
-	<string>412823237422</string>
+	<string>648053837758</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.inspireui.mstore.flutter</string>
+	<string>com.friskyfeather.store</string>
 	<key>PROJECT_ID</key>
-	<string>fluxstore-inspireui</string>
+	<string>frisky-feather</string>
 	<key>STORAGE_BUCKET</key>
-	<string>fluxstore-inspireui.appspot.com</string>
+	<string>frisky-feather.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -31,8 +31,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:412823237422:ios:8947f503f8cb2000fb40bf</string>
-	<key>DATABASE_URL</key>
-	<string>https://fluxstore-inspireui.firebaseio.com</string>
+	<string>1:648053837758:ios:cddd29de48318d57f233ef</string>
 </dict>
 </plist>

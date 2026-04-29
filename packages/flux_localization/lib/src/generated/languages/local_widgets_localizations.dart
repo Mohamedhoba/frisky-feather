@@ -116,4 +116,13 @@ class WidgetsLocalizationsDelegate
 
   @override
   String toString() => 'LocalWidgetsLocalizations.delegate(all locales)';
+
+@override
+  String get radioButtonUnselectedLabel => 'Unselected';
+
+  @override
+  String get radioButtonSelectedLabel => 'Selected';
+
+  @override
+  String get searchWebButtonLabel => 'Search Web';
 }
